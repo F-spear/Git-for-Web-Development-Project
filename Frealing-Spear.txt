@@ -1,0 +1,40 @@
+1. What is Semantic HTML? HTML which provides meaning for markup.
+    2. What is HTML used for? To structure a webpage.
+    3. What is an attribute and where do we put it? 
+    4. What is the h1 tag used for? How many times should I use it on a page? The title and for search prioritization. It can only be used once per page.
+    5. Name two tags that have required attributes Img and action
+    6. What do we put in the head of our HTML document? Header and title
+    7. What is an id? Selectors used for high specificity when a class can't be used
+    8. What elements can I add an id to? Unique HTML elements only
+    9. How many times can I use the same id on a page? Once.
+    10. What is a class? An attribute that A class name for an HTML element.
+    11. What elements can I add a class to? HTML.
+    12. How many times can I use the same class on a page? As many times as needed.
+    13. How do I get my link to open in a new tab? Blank
+    14. What is the alt attribute in the image tag used for? It provides alternative information or values in the event that a image can't be viewed.
+    15. How do I reference an id? Via a hashtag
+    16. What is the difference between a section and a div. Section is semantic in that it splits a whole into organized parts. Div however lacks solo meaning aside from any accompanying attributes and only divides pieces. This is why a div can be used within a section.
+    17. What is CSS used for? Cascading style sheets.
+    18. How to we select an element? Example - every h2 on the page h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one An ID is unique and can only be used a single time whereas a class is not unique and may be used many times over. An ID would be used to absolve an element from being effected by a class even if it housed the class name for example while the class would be used to alter everything else with the class name.
+    20. How do we select classes in CSS? .
+    21. How do we select a p element with a single class of “human””? .p #human
+    22. What is a parent child selector? When would this be useful? A selector that targets all elements that are a direct child of a specified element. This might be used to target certain paragraphs within a div for example.
+    23. How do you select all links within a div with the class of sidebar? Div, nav
+    24. What is a pseudo selector? A selector that selects elements that are in a specific state.
+    25. What do we use the change the spacing between lines? Paragraph tag <p></p>
+    26. What do we use to change the spacing between letters? Letter-spacing: 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? Text-transform: uppercase, text-transform: lowercase, text-transform: capitalize
+    28. How do I add a 1px border around my div that is dotted and black? 
+.classname{
+Border:2px dotted black;
+    29. How do I select everything on the page? Wildcard selector *
+    30. How do I write a comment in CSS? /* */
+    31. How do I find out what file I am in, when I am using the command line? Status
+    32. Using the command line - how do I see a list of files/folders in my current folder? Li
+    33. How do I remove a file via the command line? Why do I have to be careful with this? Rm and because it is permanent
+    34. Why should I use version control? It maintains each change without saving for each and every change whilst allowing multiple people to work on that same file.
+    35. How often should I commit to github? Every 20 minutes.
+    36. What is the command we would use to push our repo up to github? git push -u origin branch-name
+    37. Walk me through Lambda's git flow. You fork the repo to get your own copy, make your TL the collaborator, clone it into your terminal via the downloadable URL, change the directory to the folder you want to create the accompanying file in, enter git clone (url), change the directory to the new repo, use git checkout -b 'firstname-lastname" to make your own branch of the repo, work on your project, add and commit changes during the working period, and then submit a pull request. 
+
